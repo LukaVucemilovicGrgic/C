@@ -8,17 +8,18 @@ namespace FirstConsoleApp
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-
-        }
-
-        static void MyMethod()          
+        static void MyMethod()
         {
             //STATIC means that the method belongs to the Program class and not an object of the Program
             //VOID means that this method does not have a return value
 
-            // code to be executed
+            Console.WriteLine("This is working");
         }
+        static void Main(string[] args)
+        {
+            MyMethod();
+        }
+
+
     }
 }
