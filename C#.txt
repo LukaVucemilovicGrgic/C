@@ -1,0 +1,129 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* 
+            int testCharacter = Int32.Parse(Console.ReadLine());
+               Console.WriteLine(testCharacter);
+
+               Console.WriteLine(testCharacter.ToString());
+            */
+
+            /*
+
+            Console.WriteLine("This program ill let you sum, subtraction, multiply and division of 2 numbers\n");
+            Console.WriteLine("Type number 1");
+            float number1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Type number 2");
+            float number2 = float.Parse(Console.ReadLine());
+
+
+            Console.WriteLine("Sum of number1 and number2 is:" + (number1 + number2));
+            Console.WriteLine("Subtraction of number1 and number2 is:" + (number1 - number2));
+            Console.WriteLine("Multiply of number1 and number2 is:" + (number1 * number2));
+            Console.WriteLine("Division of number1 and number2 is:" + (number1 / number2));
+
+           */
+
+            /*
+
+            int number = 5426;
+            double doubleNumber = 19.87;
+            bool boolBool = true;
+
+            Console.WriteLine(Convert.ToString(number));    // convert int to string
+            Console.WriteLine(Convert.ToDouble(number));    // convert int to double
+            Console.WriteLine(Convert.ToInt32(doubleNumber));  // convert double to int
+            Console.WriteLine(Convert.ToString(boolBool));   // convert bool to string
+             
+
+            */
+
+
+            /*
+            string txt = "pRiJaTeLJi \"CesTO\" MIslIM Na vAS";
+            Console.WriteLine(txt.ToUpper());   
+            Console.WriteLine(txt.ToLower());   
+
+             
+
+            string firstName = "Luka";
+            string lastName = "VG";
+            string name = $"My full name is: {firstName} {lastName}";   // $-> substitutes values of variables into placeholders in a string
+            Console.WriteLine(name);
+
+            
+            */
+
+            // BOOOOOOL
+
+
+            /*
+            int x = 15;
+            Console.WriteLine(x == 10);
+            
+            bool isCSharpFun = true;
+            bool isFishTasty = false;
+            Console.WriteLine(isCSharpFun);   
+            Console.WriteLine(isFishTasty);
+
+            */
+
+            /*
+            int myAge = 28;
+            int votingAge = 18;
+
+            if (myAge >= votingAge)
+            {
+                Console.WriteLine("Old enough to vote!");
+            }
+            else
+            {
+                Console.WriteLine("Not old enough to vote.");
+            }
+
+            */
+
+            /*
+              
+            Console.WriteLine("Enter you'r age:");
+            int myAge = Int32.Parse(Console.ReadLine());
+            if (myAge < 18)
+            {
+                Console.WriteLine("You dont have enough years to vote.");
+            }
+            else
+            {
+                Console.WriteLine("Congrats, you can vote. :D");
+            }
+
+            */
+
+            /*
+            Console.WriteLine("Enter you'r age:");
+
+            int myAge = Int32.Parse(Console.ReadLine());
+
+            string result = (myAge < 18) ? "You dont have enough years to vote." : "Congrats, you can vote. :D";
+            Console.WriteLine(result);
+
+            */
+            int? i = null;      //0,---> ? is for makeing 0 in to null
+            bool x;     // false
+            string y;   //null
+            float a;    //0
+            char c;     // 0'\0'
+            
+            Console.ReadLine();
+        }
+    }
+}
