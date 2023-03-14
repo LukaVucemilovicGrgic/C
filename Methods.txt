@@ -8,19 +8,35 @@ namespace FirstConsoleApp
 {
     class Program
     {
-        static void MyMethod(string FirstName, int age)
+        //static void MyMethod(string FirstName, int age)
+        //{
+        //    //STATIC means that the method belongs to the Program class and not an object of the Program
+        //    //VOID means that this method does not have a return value
+
+        //    Console.WriteLine(FirstName + "is " + age + " years old");        //FirstName is parameter and age too
+
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    MyMethod("Luka ", 27);       //Luka Pero Marko (27,29,26) is arguments.When a parameter is passed to the method, it is called an ARGUMENT
+        //    MyMethod("Pero ", 29);
+        //    MyMethod("Marko ", 26);
+
+        //    Console.ReadLine();
+        //}
+
+
+        //Default Parameter Value
+        static void MyMethod(string country = "Norway")
         {
-            //STATIC means that the method belongs to the Program class and not an object of the Program
-            //VOID means that this method does not have a return value
-
-            Console.WriteLine(FirstName + "is " + age + " years old");        //FirstName is parameter and age too
-
+            Console.WriteLine(country);
         }
         static void Main(string[] args)
         {
-            MyMethod("Luka ",27);       //Luka Pero Marko (27,29,26) is arguments.When a parameter is passed to the method, it is called an ARGUMENT
-            MyMethod("Pero ",29);       
-            MyMethod("Marko ",26);
+            MyMethod("Crovatia");       
+            MyMethod();             //If we call the method without an argument, it uses the default value ("Norway")
+            MyMethod("USA");
 
             Console.ReadLine();
         }
