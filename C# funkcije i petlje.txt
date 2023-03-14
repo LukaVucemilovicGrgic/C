@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //// DO-WHILE
+
+            //int randomGenerateNumber = new Random().Next(1,10);     //random broj 1 do 10
+            //int randomInputNumber;
+            //do
+            //{
+            //    Console.WriteLine("Input number:");
+            //    randomInputNumber = Int32.Parse(Console.ReadLine());
+            //}
+            //while (randomGenerateNumber != randomInputNumber);
+            //Console.WriteLine("Bingo");
+            //Console.ReadLine();
+
+            //WHILE
+
+            //int randomGenerateNumber = new Random().Next(1, 10);     //random broj 1 do 10  //KREIRANJE NOVOG OBJEKTA I pozivanje na METODU NEXT
+            //int randomInputNumber = 0;
+
+            //while (randomGenerateNumber != randomInputNumber);
+            //{
+
+            //    Console.WriteLine("Input number:");
+            //    randomInputNumber = Int32.Parse(Console.ReadLine());
+            //}
+            //            Console.WriteLine("Bingo");
+            //            Console.ReadLine();
+
+
+            //FOR
+
+            //for(int i=0; i<10; i++)             //radnje koje se ponavljaju su idealne za for petlju
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            int number=GenerateNumber();
+            var num=GenerateNumber(1,10);
+            Console.ReadLine();
+        }
+        public static int GenerateNumber(int min=0, int max=1)     //nova metoda
+        {
+            return new Random().Next(min, max);
+        }
+    }
+}
