@@ -28,19 +28,92 @@ namespace FirstConsoleApp
 
 
         //Default Parameter Value
-        static void MyMethod(string country = "Norway")
+
+
+        //static void MyMethod(string country = "Norway")
+        //{
+        //    Console.WriteLine(country);
+        //}
+        //static void Main(string[] args)
+        //{
+        //    MyMethod("Crovatia");       
+        //    MyMethod();             //If we call the method without an argument, it uses the default value ("Norway")
+        //    MyMethod("USA");
+
+        //    Console.ReadLine();
+        //}
+
+        //Return Values
+
+
+        //static int MyMethod(int x)
+        //{
+        //    return 5 + x;
+        //}
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine(MyMethod(3)); // Outputs 8 (5 + 3); X=3
+        //    Console.ReadLine();
+        //}
+
+        //two parameters
+        //static int MyMethod(int x, int y)
+        //{
+        //    return x + y;
+        //}
+        //static void Main(string[] args)
+        //{
+        //    int z = MyMethod(5, 3);
+        //    Console.WriteLine(z); // store the result in a variable
+        //    Console.ReadLine();
+        //}
+
+        //Named Arguments
+
+        //static void MyMethod(string child1, string child2, string chiled3)
+        //{
+        //    Console.WriteLine("The youngest child is: " + chiled3);
+        //}
+        //static void Main(string[] args)
+        //{
+        //    MyMethod(chiled3: "\nLuka", child1: "\nPero", child2: "\nMarko");
+        //    Console.ReadLine();
+        //}
+
+        //Method Overloading
+
+        //static int PlusMethodInt(int x, int y)
+        //{ 
+        //    return x + y;
+        //}
+        //static double PlusMethodDouble(double x, double y)
+        //{
+        //    return x + y;
+        //}
+        //static void Main(string[] args)
+        //{
+        //    int myNum1 = PlusMethodInt(8, 5);
+        //    double myNum2 = PlusMethodDouble(4.3, 6.26);
+        //    Console.WriteLine("Int: " + myNum1);
+        //    Console.WriteLine("Double: " + myNum2);
+        //}
+
+        //Instead of defining two methods that should do the same thing, it is better to overload one.
+
+        static int PlusMethodInt(int x, int y)
         {
-            Console.WriteLine(country);
+            return x + y;
+        }
+        static double PlusMethodInt(double x, double y)
+        {
+            return x + y;
         }
         static void Main(string[] args)
         {
-            MyMethod("Crovatia");       
-            MyMethod();             //If we call the method without an argument, it uses the default value ("Norway")
-            MyMethod("USA");
-
-            Console.ReadLine();
+            int myNum1 = PlusMethodInt(8, 5);
+            double myNum2 = PlusMethodInt(4.3, 6.26);
+            Console.WriteLine("Int: " + myNum1);
+            Console.WriteLine("Double: " + myNum2);
         }
-
-
     }
 }
