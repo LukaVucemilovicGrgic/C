@@ -1,0 +1,15 @@
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\bin\Debug\net7.0\List.exe
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\bin\Debug\net7.0\List.deps.json
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\bin\Debug\net7.0\List.runtimeconfig.json
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\bin\Debug\net7.0\List.dll
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\bin\Debug\net7.0\List.pdb
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.csproj.AssemblyReference.cache
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.AssemblyInfoInputs.cache
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.AssemblyInfo.cs
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.dll
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\refint\List.dll
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.pdb
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.genruntimeconfig.cache
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\ref\List.dll
