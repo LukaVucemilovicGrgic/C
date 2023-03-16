@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WtLZoe/TEdprtk+lzM8Q2+IPI5rl/kUH+Sq7uqLRCwR1WaR7n6L8Rr4sNJRpCDcLa2WU/ZEnxEasrHE+rwxwhA==",
+  "dgSpecHash": "FtA5bGfhSz4oztScULSdiJ/g1RwC5XVTG7B+ZqNQAguWl4H63SoueK5vF9chX7GV2q5WEYpoMs/tTZp3O/ZVVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\student\\Documents\\C#\\Liste 16_3_2023\\List\\List\\List.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\student\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512"
+  ],
   "logs": []
 }

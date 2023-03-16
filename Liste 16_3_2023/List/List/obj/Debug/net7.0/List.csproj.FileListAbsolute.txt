@@ -13,3 +13,5 @@ C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\refint\
 C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.pdb
 C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.genruntimeconfig.cache
 C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\ref\List.dll
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\bin\Debug\net7.0\Xamarin.Essentials.dll
+C:\Users\student\Documents\C#\Liste 16_3_2023\List\List\obj\Debug\net7.0\List.csproj.CopyComplete

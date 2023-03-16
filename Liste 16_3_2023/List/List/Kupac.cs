@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace List
 {
-    public class Kupac :InfoKupca
+    public  abstract class Kupac :InfoKupca
     {
         public int Age { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        protected double OIB { get; set;}
         public Address Address { get; set; }
+        public string Ticket { get; set; }
         public virtual string GetAddress()
         {
-            return $"Address: {Address.City} {Address.State} {Address.Zip}";
+            return $"Address: {Address.City} {Address.Street} {Address.Zip}";
         }
     }
 }

@@ -14,6 +14,7 @@ namespace List
         string FirstName { get; set; }
         string LastName { get; set; }
         Address Address { get; set; }
+        string Ticket { get; set; }
 
         string GetAddress();
 
