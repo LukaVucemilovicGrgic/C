@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.AssemblyInfo.cs
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\bin\Debug\net7.0\OOpBasic.exe
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\bin\Debug\net7.0\OOpBasic.deps.json
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\bin\Debug\net7.0\OOpBasic.runtimeconfig.json
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\bin\Debug\net7.0\OOpBasic.dll
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\bin\Debug\net7.0\OOpBasic.pdb
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.dll
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\refint\OOpBasic.dll
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.pdb
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\OOpBasic.genruntimeconfig.cache
+C:\Users\student\Desktop\Elpros\Projects\OOpBasic\OOpBasic\obj\Debug\net7.0\ref\OOpBasic.dll

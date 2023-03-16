@@ -35,28 +35,28 @@ namespace OOpBasics
 
             //---ENTERING DATA FROM CONSOLE---
 
-            Console.WriteLine("Let's create a new student!");
-            Student newStudent = new Student();
+            //Console.WriteLine("Let's create a new student!");
+            //Student newStudent = new Student();
 
-            Console.WriteLine("Enter first name: ");
-            newStudent.FirstName = Console.ReadLine();
+            //Console.WriteLine("Enter first name: ");
+            //newStudent.FirstName = Console.ReadLine();
 
-            Console.WriteLine("Enter last name: ");
-            newStudent.LastName = Console.ReadLine();
+            //Console.WriteLine("Enter last name: ");
+            //newStudent.LastName = Console.ReadLine();
 
-            Console.WriteLine("Enter cours: ");
-            string course = Console.ReadLine();
-            newStudent.Course = course;
+            //Console.WriteLine("Enter cours: ");
+            //string course = Console.ReadLine();
+            //newStudent.Course = course;
 
-            Console.WriteLine("Enter index number: ");
-            long indexNumber = Int64.Parse(Console.ReadLine());
-            newStudent.IndexNumber = indexNumber;
+            //Console.WriteLine("Enter index number: ");
+            //long indexNumber  = Int64.Parse(Console.ReadLine());
+            //newStudent.IndexNumber = indexNumber;
 
-            Console.WriteLine($"New student information :\nFirstName: {newStudent.FirstName}" +
-                $"\nLastName: {newStudent.LastName} \nCourse: {newStudent.Course}" +
-                $"\nIndexNumber: {newStudent.IndexNumber}");
+            //Console.WriteLine($"New student information :\nFirstName: {newStudent.FirstName}" +
+            //    $"\nLastName: {newStudent.LastName} \nCourse: {newStudent.Course}" +
+            //    $"\nIndexNumber: {newStudent.IndexNumber}");
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
             //---ADDRESS OVERRIDE---
 
@@ -71,36 +71,25 @@ namespace OOpBasics
 
             //  -----------------LISTE--------------------- 
 
+            //Console.WriteLine("LISTS");
             //List<Subject> listOfSubjects = new List<Subject>();
-            //Subject subject = new Subject();
-            //string escapeKey = "1";
+            //var escapeKey = "1";
             //do
             //{
-            //    //Subject subject = new Subject();
-
-            //    Console.WriteLine("Enter subject's name: ");
+            //    Subject subject = new Subject();
+            //    Console.WriteLine("Enter subject name: ");
             //    subject.Name = Console.ReadLine();
+            //    Console.WriteLine("Generate professor Id : ");
+            //    subject.ProfessorId = Guid.NewGuid();
 
-            //    Console.WriteLine("Generate professor's id: ");
-            //    subject.ProfesorId = Guid.NewGuid();
-            //    Console.WriteLine(subject.ProfesorId);
+            //    Console.WriteLine(subject.ProfessorId);
 
             //    listOfSubjects.Add(subject);
-
-            //    Console.WriteLine("To finish, press 1. To continue, press any key.");
+            //    Console.WriteLine("To finish, press 1, to contunie press any key");
             //    escapeKey = Console.ReadLine();
 
             //}
             //while (escapeKey != "1");
-
-            //Console.WriteLine("---PRINTING OF THE LIST---");
-            //Console.ReadLine();
-
-            //foreach (Subject sub in listOfSubjects)
-            //{
-            //    Console.WriteLine($"Subject: {sub.Name} \nProfesorId: {sub.ProfesorId}\n");
-            //}
-            //Console.ReadLine();
         }
     }
 }
