@@ -43,11 +43,13 @@ namespace MyApplication
                 }
 
                 Console.WriteLine("Enter buyer age(1-100): ");
+                buyer.Age = Int32.Parse(Console.ReadLine());
 
                 while (buyer.Age < 1 || buyer.Age > 100)
                 {
-                    buyer.Age = Int32.Parse(Console.ReadLine());
                     Console.WriteLine("Invalid number, plz try again(1-100): ");
+                    buyer.Age = Int32.Parse(Console.ReadLine());
+                    
                 }
 
                 Console.WriteLine("Ticket types:\nRegular\nDiscount\npensioner" +
